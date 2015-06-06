@@ -1,0 +1,40 @@
+﻿@model JonDJones.Com.Core.ViewModel.Pages.SearchPageViewModel
+
+
+<section class="container-fluid">
+
+    <div class="row">
+
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+            <h1>SearchResults...</h1>
+            <br>
+
+            @if (Model.HasSearchResult)
+            {
+                foreach (var result in Model.SearchResults)
+                {
+                    <p class="lead">
+
+                        <a href="@Url.PageUrl(@result.LinkURL)">
+                            @result.Name
+                        </a>
+
+                    <p>@Url.PageUrl(@result.LinkURL)</p>
+
+                    </p>
+
+                    <hr />
+                }
+            }
+
+            @if (!Model.HasSearchResult)
+            {
+                <img src="~/ClientResources/img/NoResult.jpg">
+
+            }
+
+        </div>
+    </div>
+
+</section>
+

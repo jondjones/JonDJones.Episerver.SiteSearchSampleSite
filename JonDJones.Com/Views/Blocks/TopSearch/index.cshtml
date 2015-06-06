@@ -1,0 +1,13 @@
+﻿@model JonDJones.com.Core.ViewModel.Blocks.TopSearchViewModel
+@using EPiServer.Web.Mvc.Html;
+
+<form method="POST" action="@Url.PageUrl(@Model.Link.LinkURL)">
+    <div class="navbar-form">
+        <div class="form-group" style="display:inline;">
+            <div class="input-group">
+                <input type="text" name="searchterm" class="form-control" placeholder="What are searching for?">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span>
+            </div>
+        </div>
+    </div>
+</form>
