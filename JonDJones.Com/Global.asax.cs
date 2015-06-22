@@ -42,8 +42,8 @@ namespace JonDJones.Com
                     BasePathResolver = EPiServer.Web.Routing.RouteCollectionExtensions.ResolveBasePath,
                     Direction = SupportedDirection.Both
                 };
-                var segment = new SearchSegment("searchterm", contentLoader);
-                var segmentMappings = new Dictionary<string, ISegment> { { "searchterm", segment } };
+                var segment = new SearchSegment("action", contentLoader);
+                var segmentMappings = new Dictionary<string, ISegment> { { "action", segment } };
                 parameters.SegmentMappings = segmentMappings;
 
                 routes.MapContentRoute(

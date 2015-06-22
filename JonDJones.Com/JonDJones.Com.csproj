@@ -243,7 +243,6 @@
   <ItemGroup>
     <Compile Include="Controllers\Blocks\TopSearchController.cs" />
     <Compile Include="Controllers\Blocks\RichTextBlockController.cs" />
-    <Compile Include="Controllers\Blocks\SideWidgetController.cs" />
     <Content Include="App_Code\StructureMapDependencyResolver.cs" />
     <Content Include="App_Code\StructureMapSetUp.cs" />
     <Content Include="App_Code\PageContextActionFilter.cs" />
@@ -314,7 +313,6 @@
     <Content Include="Views\Shared\DisplayTemplates\MediaFile.cshtml" />
     <Content Include="Views\Shared\Footer.cshtml" />
     <Content Include="Views\Blocks\TopSearch\index.cshtml" />
-    <Content Include="Views\Blocks\SideWidget\index.cshtml" />
     <Content Include="Views\Pages\ContactPage\index.cshtml" />
     <Content Include="Views\Blocks\RichTextBlock\index.cshtml" />
     <Content Include="Views\Pages\SearchPage\index.cshtml" />

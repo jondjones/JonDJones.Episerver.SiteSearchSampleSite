@@ -47,7 +47,6 @@ namespace JonDJones.com.Core.Segment
             if (content is SearchPage)
             {
                 context.RouteData.Values[Name] = context.Defaults[Name];
-                context.RouteData.Values["searchterm"] = segmentPair.Next;
             }
             else
             {

@@ -176,11 +176,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Blocks\Base\GlobalBaseBlock.cs" />
-    <Compile Include="Blocks\BlogListing.cs" />
-    <Compile Include="Blocks\BlogCategory.cs" />
     <Compile Include="Blocks\TopSearchBlock.cs" />
     <Compile Include="Blocks\RichTextBlock.cs" />
-    <Compile Include="Blocks\SideWidget.cs" />
     <Compile Include="Dependencies\EpiServerDependenciesResolver.cs" />
     <Compile Include="ContextResolver\ContextResolver.cs" />
     <Compile Include="ContextResolver\IContextResolver.cs" />
@@ -215,7 +212,6 @@
     <Compile Include="ViewModel\Base\BlockViewModel.cs" />
     <Compile Include="ViewModel\Blocks\TopSearchViewModel.cs" />
     <Compile Include="ViewModel\Blocks\RichTextBlockViewModel.cs" />
-    <Compile Include="ViewModel\Blocks\SideWidgetViewModel.cs" />
     <Compile Include="Entities\BlogSummary.cs" />
     <Compile Include="ViewModel\Pages\ContactPageViewModel.cs" />
     <Compile Include="ViewModel\Pages\SearchPageViewModel.cs" />
